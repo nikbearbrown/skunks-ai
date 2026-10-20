@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="Browse the Agentic AI library of 1,877 agents."><title>Agents | AI Skunk Works</title><link rel="stylesheet" href="/styles.css"></head>
+<body><a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header"><div class="container nav-wrap"><a class="brand" href="/"><span>AI Skunk Works<small>at Northeastern University</small></span></a><button class="menu-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Open navigation">&#9776;</button><nav aria-label="Primary navigation"><ul class="nav-list" id="primary-nav"><li><a href="/about/">About</a></li><li><a href="/agents/" aria-current="page">Agents</a></li><li><a href="/projects/">Projects</a></li><li><a href="/students/">Students</a></li><li><a href="/industry/">Industry</a></li><li><a class="nav-cta" href="/contact/">Pitch an idea</a></li></ul></nav></div></header>
+<main id="main"><section class="page-intro page-intro--research"><div class="container"><p class="eyebrow">Agentic AI &middot; open for improvement</p><h1>Agents</h1><p>Every agent in the library is a starting point. Students and Skunk Works members are invited to review, test, port, and extend them.</p></div></section><section class="section"><div class="container">
+<div class="callout"><h3>Pick one and make it better</h3><p>Most agents here are source-derived drafts that have not been run. That is the opportunity. Open one, see what is unresolved, and take a piece of it. <a href="/agents/contribute/">How to contribute &rarr;</a></p></div>
+<form class="agent-filters" id="agent-filters" role="search" style="display:grid;gap:.75rem;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));margin:2rem 0 1rem">
+<label>Search<br><input id="q" type="search" placeholder="e.g. Telegram, Gmail, scraper" style="width:100%;padding:.6rem;border:1px solid var(--line)"></label>
+<label>Category<br><select id="cat" style="width:100%;padding:.6rem;border:1px solid var(--line)"><option value="">All categories</option></select></label>
+<label>Size<br><select id="size" style="width:100%;padding:.6rem;border:1px solid var(--line)"><option value="">Any size</option><option value="s">Small (up to 6 nodes) &mdash; good first picks</option><option value="m">Medium (7&ndash;15)</option><option value="l">Large (16+)</option></select></label>
+</form>
+<p id="count" aria-live="polite" class="meta"></p>
+<div class="grid grid-3" id="results"></div>
+<p><button class="button secondary" id="more" type="button" hidden>Show more</button></p>
+<noscript><p>This library needs JavaScript. You can also browse it on <a href="https://github.com/nikbearbrown/Agents">GitHub</a>.</p></noscript>
+</div></section><script src="/agents.js"></script></main>
+<footer class="site-footer"><div class="container footer-grid"><div><h3>AI Skunk Works</h3><p>A small team that builds working AI prototypes fast, at Northeastern University.</p></div><div><h3>Explore</h3><ul><li><a href="/about/">About</a></li><li><a href="/agents/">Agents</a></li><li><a href="/projects/">Projects</a></li></ul></div><div><h3>Connect</h3><ul><li><a href="/students/">Students</a></li><li><a href="/industry/">Industry</a></li><li><a href="/contact/">Pitch an idea</a></li></ul></div></div><div class="container footer-bottom">&copy; 2026 AI Skunk Works &middot; Northeastern University</div></footer>
+<script src="/site.js"></script></body></html>
